@@ -1,0 +1,3 @@
+D:/Обучение Нетология/Programs/ДЗ/BP_DZ9_Task2_BezzabotnovDV/out/build/x64-debug/CMakeFiles/BP_DZ9_Task2_BezzabotnovDV.dir
+D:/Обучение Нетология/Programs/ДЗ/BP_DZ9_Task2_BezzabotnovDV/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Обучение Нетология/Programs/ДЗ/BP_DZ9_Task2_BezzabotnovDV/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
