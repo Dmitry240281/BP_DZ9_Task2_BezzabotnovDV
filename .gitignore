@@ -1,5 +1,6 @@
 *
-*/
+*/.vs
+*/out
 !.gitignore
 !*.cpp
 !*.h
@@ -8,4 +9,3 @@
 !*.filters
 !*.user
 !*.txt
-!*.json
