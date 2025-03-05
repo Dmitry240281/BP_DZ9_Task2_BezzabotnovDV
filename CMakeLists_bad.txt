@@ -11,37 +11,10 @@ endif()
 
 project ("BP_DZ9_Task2_BezzabotnovDV")
 
-set (SOURCES
-BP_DZ9_Task2_BezzabotnovDV.cpp
-Figure.cpp
-Quadrate.cpp
-Triangle.cpp
-RightTriangle.cpp
-IsoscelesTriangle.cpp
-EquilateralTriangle.cpp
-Quadrate.cpp
-Rectangle.cpp
-Square.cpp
-Parallelogram.cpp
-Rhombus.cpp
-)
-set (HEADERS
-BP_DZ9_Task2_BezzabotnovDV.h
-Figure.h
-Quadrate.h
-Triangle.h
-RightTriangle.h
-IsoscelesTriangle.h
-EquilateralTriangle.h
-Quadrate.h
-Rectangle.h
-Square.h
-Parallelogram.h
-Rhombus.h
-)
-
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (BP_DZ9_Task2_BezzabotnovDV ${SOURCES} ${HEADERS})
+add_executable (BP_DZ9_Task2_BezzabotnovDV "BP_DZ9_Task2_BezzabotnovDV.cpp" "BP_DZ9_Task2_BezzabotnovDV.h" "Figure.h" "Figure.cpp" "Quadrate.h" "Quadrate.cpp" "Triangle.h" "Triangle.cpp" "RightTriangle.h"
+"RightTriangle.cpp" "IsoscelesTriangle.h" "IsoscelesTriangle.cpp" "EquilateralTriangle.h" "EquilateralTriangle.cpp" "Quadrate.h" "Quadrate.cpp" "Rectangle.h" "Rectangle.cpp" "Square.h" "Square.cpp" 
+"Parallelogram.h" "Parallelogram.cpp" "Rhombus.h" "Rhombus.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET BP_DZ9_Task2_BezzabotnovDV PROPERTY CXX_STANDARD 20)
